@@ -61,6 +61,9 @@ as requisições chegam ao PHP como requisições normais.
 
 ---
 
+> 📄 **Como corrigir:** veja o guia completo de soluções e remediação em
+> [`SOLUCOES.md`](SOLUCOES.md) — inclui passos para hospedagem compartilhada (cPanel/Plesk).
+
 ## Mitigações temporárias (parciais — atualizar é a única correção completa)
 
 **CVE-2026-109619:**
