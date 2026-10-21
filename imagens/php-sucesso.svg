@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="564" viewBox="0 0 900 564" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+<rect x="0" y="0" width="900" height="564" rx="10" fill="#1b1f24"/>
+<rect x="0" y="0" width="900" height="46" rx="10" fill="#2b2f36"/>
+<rect x="0" y="36" width="900" height="10" fill="#2b2f36"/>
+<circle cx="24" cy="23" r="6.5" fill="#ff5f56"/>
+<circle cx="46" cy="23" r="6.5" fill="#ffbd2e"/>
+<circle cx="68" cy="23" r="6.5" fill="#27c93f"/>
+<text x="450.0" y="28" text-anchor="middle" font-size="12.5" fill="#9aa4ae">Navegador - check-php2shell.php?token=***</text>
+<text x="22" y="78" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">===========================================================</text>
+<text x="22" y="99" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve"> Diagnostico php2shell (CVE-2026-109618 / CVE-2026-109619)</text>
+<text x="22" y="120" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">===========================================================</text>
+<text x="22" y="141" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="162" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">Versao do PHP : 8.3.36</text>
+<text x="22" y="183" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">SAPI          : fpm-fcgi</text>
+<text x="22" y="204" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="225" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve">--- CVE-2026-109618 e 109619: a versao esta corrigida? ---</text>
+<text x="22" y="246" font-size="13.5" fill="#3ddc84" font-weight="700" xml:space="preserve">RESULTADO: OK - versao igual ou superior a corrigida (8.3.36).</text>
+<text x="22" y="267" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="288" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve">--- CVE-2026-109619: mitigacao de session.upload_progress ---</text>
+<text x="22" y="309" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">session.upload_progress.enabled = Off (0)</text>
+<text x="22" y="330" font-size="13.5" fill="#3ddc84" font-weight="700" xml:space="preserve">OK: upload_progress desativado (mitigacao ja aplicada).</text>
+<text x="22" y="351" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="372" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve">--- CVE-2026-109618: memoria e tamanho de requisicao ---</text>
+<text x="22" y="393" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">memory_limit        = 256M</text>
+<text x="22" y="414" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">post_max_size       = 8M</text>
+<text x="22" y="435" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">upload_max_filesize = 2M</text>
+<text x="22" y="456" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="477" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">===========================================================</text>
+<text x="22" y="498" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve"> Lembre-se de APAGAR este arquivo do servidor ao terminar.</text>
+<text x="22" y="519" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">===========================================================</text>
+</svg>

@@ -121,6 +121,18 @@ Reporta a versão do PHP (CLI), se está corrigida, as configurações relevante
 
 ---
 
+## Exemplos de saída
+
+As imagens abaixo (pasta [`imagens/`](imagens)) ilustram os dois cenários. As versões mostradas
+são **exemplos** — a versão real só aparece ao executar o diagnóstico no seu servidor.
+
+| Site seguro (corrigido) | Falha encontrada (vulnerável) |
+|---|---|
+| ![PHP OK](imagens/php-sucesso.svg) | ![PHP vulnerável](imagens/php-falha.svg) |
+| ![Bash OK](imagens/bash-sucesso.svg) | ![Bash vulnerável](imagens/bash-falha.svg) |
+
+---
+
 ## Situação exploração / divulgação (em 21/10/2026)
 
 - watchTowr relata tentativas de exploração ativa; Huntress diz não haver IoCs confirmados;

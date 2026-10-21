@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="585" viewBox="0 0 900 585" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+<rect x="0" y="0" width="900" height="585" rx="10" fill="#0d1117"/>
+<rect x="0" y="0" width="900" height="46" rx="10" fill="#161b22"/>
+<rect x="0" y="36" width="900" height="10" fill="#161b22"/>
+<circle cx="24" cy="23" r="6.5" fill="#ff5f56"/>
+<circle cx="46" cy="23" r="6.5" fill="#ffbd2e"/>
+<circle cx="68" cy="23" r="6.5" fill="#27c93f"/>
+<text x="450.0" y="28" text-anchor="middle" font-size="12.5" fill="#9aa4ae">bash - check-php2shell.sh</text>
+<text x="22" y="78" font-size="13.5" fill="#3ddc84" font-weight="400" xml:space="preserve">$ ./check-php2shell.sh</text>
+<text x="22" y="99" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">===========================================================</text>
+<text x="22" y="120" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve"> Diagnostico php2shell (CVE-2026-109618 / CVE-2026-109619)</text>
+<text x="22" y="141" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">===========================================================</text>
+<text x="22" y="162" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="183" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">Versao do PHP (CLI) : 8.3.36</text>
+<text x="22" y="204" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">SAPI                : cli</text>
+<text x="22" y="225" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="246" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve">--- A versao esta corrigida? ---</text>
+<text x="22" y="267" font-size="13.5" fill="#3ddc84" font-weight="700" xml:space="preserve">RESULTADO: OK - versao igual ou superior a corrigida (8.3.36).</text>
+<text x="22" y="288" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="309" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve">--- Configuracoes relevantes (php -i) ---</text>
+<text x="22" y="330" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">memory_limit =&gt; 256M =&gt; 256M</text>
+<text x="22" y="351" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">post_max_size =&gt; 8M =&gt; 8M</text>
+<text x="22" y="372" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">session.upload_progress.enabled =&gt; Off =&gt; Off</text>
+<text x="22" y="393" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">upload_max_filesize =&gt; 2M =&gt; 2M</text>
+<text x="22" y="414" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="435" font-size="13.5" fill="#6ea8fe" font-weight="700" xml:space="preserve">--- Versoes de PHP-FPM / modulos instalados ---</text>
+<text x="22" y="456" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">-- php8.3-fpm --</text>
+<text x="22" y="477" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve">PHP 8.3.36 (fpm-fcgi) (built: Oct 21 2026 09:12:04)</text>
+<text x="22" y="498" font-size="13.5" fill="#d7dde3" font-weight="400" xml:space="preserve"></text>
+<text x="22" y="519" font-size="13.5" fill="#3ddc84" font-weight="700" xml:space="preserve">session.upload_progress.enabled deve estar Off (0). OK.</text>
+<text x="22" y="540" font-size="13.5" fill="#8b98a5" font-weight="400" xml:space="preserve">===========================================================</text>
+</svg>
