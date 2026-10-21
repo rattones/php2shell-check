@@ -103,6 +103,24 @@ Se aparecer **"Acesso negado."**, o `token` da URL não bate com o `$TOKEN` do a
 
 ---
 
+## Script de diagnóstico: `check-php2shell.sh`
+
+Mesma verificação, para quem **tem acesso ao shell/SSH** do servidor.
+
+```bash
+chmod +x check-php2shell.sh
+./check-php2shell.sh
+```
+
+Reporta a versão do PHP (CLI), se está corrigida, as configurações relevantes
+(`session.upload_progress.enabled`, `memory_limit`, `post_max_size`, `upload_max_filesize`,
+`fatal_error_backtraces`), versões do PHP-FPM/módulos e os pacotes PHP instalados.
+
+> Observação: a versão do PHP no CLI pode diferir da usada pelo site (PHP-FPM/módulo do Apache).
+> O script também lista as versões de FPM encontradas para você comparar.
+
+---
+
 ## Situação exploração / divulgação (em 21/10/2026)
 
 - watchTowr relata tentativas de exploração ativa; Huntress diz não haver IoCs confirmados;
